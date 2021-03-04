@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{  
+  background-color: rgb(185, 178, 158);
+}
+.form-inline{
+  display:flex;
+  justify-content: center;  
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.input{
+  margin-right: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(187, 216, 179);
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  font-size: 20px;
+}
+::placeholder{
+  font-size: 20px;  
+}
+.coutry_list{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.country-conteiner{
+  display: block;
+  align-items: center;
+  align-content: center;
+}
+.information-item{
+  font-size: 40px;
+}
+.information{
+  font-size: 40px;
+  font-weight: 400;
+}
+.flag{
+margin-left: 60px;
+}
+.country-info-conteiner{
+  display: inline-block;
+  justify-content: center;
+}
+.country_name{
+   
+margin-left: 35%;
+  
+  font-size: 60px;
+}
+
+.languages_item{
+  font-size: 40px;
+  
+}
+.pnotify-pre-line{
+  font-size: 40px;
+  line-height: 40px;
+}
+.pnotify-container{
+  margin: auto;
+}
+
