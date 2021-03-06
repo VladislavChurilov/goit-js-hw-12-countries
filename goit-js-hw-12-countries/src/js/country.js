@@ -5,7 +5,7 @@ import"@pnotify/core/dist/BrightTheme.css";
 import FetchCountries from './fetchCountries';
 import countryTpl from './template/country.hbs';
 import oneCountryTpl from './template/country-one.hbs';
-let debounce = require('lodash.debounce');
+const debounce = require('lodash.debounce');
 
 const refs = {
     listRef: document.querySelector('.js-coutry-counteiner'),
@@ -14,7 +14,7 @@ const refs = {
 }
 const newFetchCountries = new FetchCountries();
 
-refs.formRef.addEventListener("submit", onSearch);
+// refs.formRef.addEventListener("submit", onSearch);
 refs.formRef.addEventListener("input",debounce(onSearch, 500));
 
 function onSearch(e) {
