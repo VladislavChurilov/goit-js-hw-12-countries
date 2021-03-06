@@ -3,8 +3,9 @@ import { alert, notice, info, success, error, defaultModules } from'@pnotify/cor
 // import"@pnotify/core/dist/PNotify.css";
 import"@pnotify/core/dist/BrightTheme.css";
 import FetchCountries from './fetchCountries';
-import countryTpl from './template/country.hbs';
-import oneCountryTpl from './template/country-one.hbs';
+// import countryTpl from './template/country.hbs';
+import countryTpl from '../template/country.hbs';
+import oneCountryTpl from '../template/country-one.hbs';
 const debounce = require('lodash.debounce');
 
 const refs = {
